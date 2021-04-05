@@ -23,5 +23,12 @@ extra_scripts             = ${esp8266_custom_common.extra_scripts}
 
 Powinien utworzyc sie bin na podstawie konfiguracji pobranej z Custom.h (wtyczki)
 
+1.Wtyczki
 ![ESP_Pulings](./image/ESp.PNG)
+2.SDS011
 ![SDS](./image/SDS.PNG)
+3.Switch
+![Switch](./image/Switch.PNG)
+4.Rules
+![Rules](./image/R1.PNG)
+
