@@ -1,6 +1,7 @@
 # ESPEasy_
 
 Plik przygotowano pod platformio i aktualnie espeasy_20210223
+
 1.ESPEasy-mega_20210223\src\Custom-sample.h zmień na Custom.h plik przykładowy dodany.
 
 2.W pliku ESPEasy-mega_20210223\platformio_esp32_envs dodanie
@@ -20,6 +21,6 @@ extra_scripts             = ${esp8266_custom_common.extra_scripts}
 3.Rozpakowanie rc-switch-master do ESPEasy-mega_20210223\lib\rc-switch-master
 4.Dodanei ESPEasy-mega_20210223\src\_P144_RC-Switch-TX.ino
 
-Powinien utworzyc sie plik z wtyczkami z Custom.h
+Powinien utworzyc sie bin na podstawie konfiguracji pobranej z Custom.h (wtyczki)
 
 
