@@ -28,11 +28,14 @@ Powinien utworzyc sie bin na podstawie konfiguracji pobranej z Custom.h (wtyczki
 ![ESP_Pulings](./image/ESp.PNG)
 
 2.SDS011
+
 ![SDS](./image/SDS.PNG)
 
 3.Switch
+
 ![Switch](./image/Switch.PNG)
 
 4.Rules
+
 ![Rules](./image/R1.PNG)
 
