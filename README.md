@@ -39,3 +39,7 @@ Powinien utworzyc sie bin na podstawie konfiguracji pobranej z Custom.h (wtyczki
 
 ![Rules](./image/R1.PNG)
 
+5.Oled
+
+![Rules](./image/Oled.PNG)
+
