@@ -23,4 +23,4 @@ extra_scripts             = ${esp8266_custom_common.extra_scripts}
 
 Powinien utworzyc sie bin na podstawie konfiguracji pobranej z Custom.h (wtyczki)
 
-
+![Algorithm schema](./image/ESp.PNG)
