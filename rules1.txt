@@ -1,0 +1,42 @@
+on System#Boot do
+GPIO,2,0
+
+timerSet,1,20
+dummy#var1=0
+endon
+
+On Button#State Do
+
+event,ToggleSwitch
+
+EndOn
+
+On TSOP1736#IR Do
+ If [TSOP1736#IR]=65585
+  event,ToggleSwitch
+ EndIF
+ If [TSOP1736#IR]=49
+  event,ToggleSwitch
+ EndIF
+EndOn
+
+
+On ToggleSwitch Do
+  OLEDCMD,on
+  timerSet,1,10
+
+ 
+  if [dummy#var1] = 0
+     TaskValueSet,11,1,1   //Dummy Device nr !!!11!!! menu 
+     RC,SENDDEC=4474196    //OFF
+     gpio,2,1
+  else
+     TaskValueSet,11,1,0
+     RC,SENDDEC=4474193    //ON
+     gpio,2,0
+  endif
+EndOn
+
+ On Rules#Timer=1 do  //When Timer1 expires, do
+ OLEDCMD,off
+ endon
